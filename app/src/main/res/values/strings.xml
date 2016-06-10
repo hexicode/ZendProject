@@ -2,4 +2,26 @@
     <string name="app_name">Zend</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_contact_detail">ContactDetail</string>
+    <string name="action_share_title">share</string>
+    <string name="title_activity_contact_cards_main">ContactCardsMainActivity</string>
+
+    <!--Tab title strings -->
+    <string name="title_section1">My Zend Cards</string>
+    <string name="title_section2">Cards</string>
+    <string name="title_section3">Groups</string>
+
+    <!--Dialog fragment strings -->
+    <string name="delete_myContact">Delete Contact Card?</string>
+    <string name="delete_action">Delete</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="title_activity_add_contact_card">Add Contact Card</string>
+    <string name="take_photo_action">Take Picture</string>
+    <string name="upload_photo_action">Upload</string>
+    <string name="set_image">Set Image</string>
+    <string name="create_card_button">Create Card</string>
+    <string name="content_authority">com.hexicode.testapplication</string>
+    <string name="sent_file">Share Contact Card</string>
+    <string name="title_activity_share_contact_card_nfc">ShareContactCardNFC</string>
 </resources>

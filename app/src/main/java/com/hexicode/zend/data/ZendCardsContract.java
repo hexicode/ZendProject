@@ -1,9 +1,5 @@
 package com.hexicode.zend.data;
 
-/**
- * Created by Brian on 6/6/2016.
- */
-
 import android.content.ContentUris;
 import android.net.Uri;
 import android.provider.BaseColumns;
@@ -20,7 +16,6 @@ public final class ZendCardsContract {
     // the content provider.
     public static final String PATH_MYCARDS = "my_cards";
     public static final String PATH_CARDS = "cards";
-
 
     public ZendCardsContract(){}
 
@@ -59,5 +54,4 @@ public final class ZendCardsContract {
         //file location string
         public static final String COLUMN_PHOTO_ADDRESS = "photolocation";
     }
-
 }

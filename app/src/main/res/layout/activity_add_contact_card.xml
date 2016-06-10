@@ -1,0 +1,54 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hexicode.zend.AddZendCardActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@mipmap/no_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_image"/>
+        <EditText
+            android:id="@+id/insert_co_association"
+            android:hint="insert company/association"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/insert_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="insert name"/>
+        <EditText
+            android:id="@+id/insert_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="insert lastname"/>
+        <EditText
+            android:id="@+id/insert_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="insert number"
+            android:inputType="phone"
+            android:ems="10"/>
+        <EditText
+            android:id="@+id/insert_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="insert email"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_card_button"
+            android:id="@+id/create_button"/>
+    </LinearLayout>
+</ScrollView>
+
